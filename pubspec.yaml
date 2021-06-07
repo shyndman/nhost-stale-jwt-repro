@@ -1,0 +1,25 @@
+name: timeout_test
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  graphql_flutter:
+  graphql:
+  nhost_flutter_auth:
+  nhost_flutter_graphql:
+  nhost_sdk:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0-0
+
+flutter:
+  uses-material-design: true
